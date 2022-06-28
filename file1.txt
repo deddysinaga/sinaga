@@ -1,0 +1,5 @@
+Menambah file1.txt
+
+git config --global core.editor "code --wait"
+git config --global diff.tool "default-difftool"
+git config --global difftool.default-difftool.cmd "code --wait --diff \$LOCAL \$REMOTE"
